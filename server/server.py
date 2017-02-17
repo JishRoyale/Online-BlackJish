@@ -1,6 +1,4 @@
-#Built off of HTTP Server module.
-#WE can use to repsond from the battleships client.
-
+#Blackjish server
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 
 class S(BaseHTTPRequestHandler):
